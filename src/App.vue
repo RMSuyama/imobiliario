@@ -40,7 +40,7 @@
     <div id="sobremim">
 
       <div class="card-body" id="left">
-        <p>Conheça Henrique Carneiro, um cantor e violonista talentoso que faz a alma do choro e do samba vibrar. Formado no Conservatório de Música, Henrique é um músico experiente e possui um vasto repertório que varia de clássicos a novas composições.</p>
+        <p> Conheça Henrique Carneiro, um cantor e violonista talentoso que faz a alma do choro e do samba vibrar. Formado no Conservatório de Música, Henrique é um músico experiente e possui um vasto repertório que varia de clássicos a novas composições.</p>
 
         <p>Com sua habilidade no violão, ele cria melodias que enchem a plateia de emoção e vida, envolvendo a todos em uma atmosfera única e envolvente. Seu estilo único de interpretar o choro e o samba, com a essência da música brasileira, cativa a todos que o ouvem.</p>
 
