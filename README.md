@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # pokenokiadevs
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -39,3 +40,7 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+=======
+# imobiliario
+landingpage imobiliário
+>>>>>>> 332fda16dedc69a86366e500e281a3afdbd19cdf
