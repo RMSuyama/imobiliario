@@ -96,7 +96,7 @@
 
                   <h3>Endereço:</h3>
                    <p><a href="https://www.google.com/maps/@-24.4945346,-47.8467756,21z">Rua Celso Xavier, 590 – Centro – Registro/SP</a></p> 
-                   <p><a href="http://www.google.com">E-mail: rafaelmoreirasuyama@adv.oabsp.org.br</a></p>
+                   <p><a href="http://www.google.com">rafaelmoreirasuyama@adv.oabsp.org.br</a></p>
                    <p><a href="http://www.google.com">Telefone de contato</a></p>
                   </div>
                   <div id="recursos">
