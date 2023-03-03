@@ -1,6 +1,6 @@
 
 <template>
-<div><nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+<div><nav class="navbar navbar-expand-lg" id="navbar">
   <div class="container-fluid">
     <a class="navbar-brand" href=""><img id="logo" src="./assets/teste.html.png" alt="Example Image" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -161,8 +161,8 @@ h3 {
 }
 
 #recursos{
-  width:25vw;
-  height: 25vh;
+  width:40vw;
+  height: 30vh;
   margin-bottom: 5vw;}
 
 #navbar {
@@ -183,8 +183,8 @@ h3 {
 #logo{
   padding-left: 1.3vw;
   padding-bottom: 5px;
-  width:7vw;
-  height:5.5vw;
+  width:12vw;
+  height:10.5vw;
   display:flex;
   align-items: center;
   justify-content: center;
