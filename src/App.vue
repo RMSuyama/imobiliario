@@ -2,7 +2,7 @@
 <template>
 <div><nav class="navbar navbar-expand-lg" id="navbar">
   <div class="container-fluid">
-    <a class="navbar-brand" href=""><img id="logo" src="./assets/teste.html.png" alt="Example Image" /></a>
+    <a class="navbar-brand" href=""><img id="logo" src="./assets/logo.png" alt="Example Image" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -101,29 +101,30 @@
       <div class="col-12">
         <footer class="navbar navbar-expand-lg .bg-body-secondary" id="foot">
 
-  <div id="recursos">
+                  <div id="recursos">
 
                   <h3>Endereço:</h3>
-                   <p><a href="https://www.google.com/maps/@-24.4945346,-47.8467756,21z">Rua Celso Xavier, 590 – Centro – Registro/SP</a></p> 
-                   <p><a href="http://www.google.com">rafaelmoreirasuyama@adv.oabsp.org.br</a></p>
-                   <p><a href="http://www.google.com">Telefone de contato: (13) 3822-1879</a></p>
+                   <p2><a href="https://www.google.com/maps/@-24.4945346,-47.8467756,21z">Rua Celso Xavier, 590 – Centro – Registro/SP</a></p2> 
+                   <p2><a href="http://www.google.com">Endereço Eletrônico</a></p2>
+                   <p2><a href="http://www.google.com">Telefone de contato: (13) 3822-1879</a></p2>
                   </div>
                   <div id="recursos">
 
                   <h3>Sobre o Escritório:</h3>
 
-                  <p><a href="http://www.google.com">Nossa história</a></p> 
-                  <p><a href="http://www.google.com">Nossa equipe</a></p>
-                  <p><a href="http://www.google.com">Política de Privacidade</a></p>
-                  <p><a href="http://www.google.com">FAQs</a></p>
+                  <p2><a href="http://www.google.com">Nossa história</a></p2> 
+                  <p2><a href="http://www.google.com">Nossa equipe</a></p2>
+                  <p2><a href="http://www.google.com">Política de Privacidade</a></p2>
+                  <p2><a href="http://www.google.com">FAQs</a></p2>
                   </div>
 
-                  <div id="recursos">
+                  <div id="linksSocial">
                   <h3>Siga-nos nas redes sociais:</h3>
                   
-                  <p><a class="dropdown-item" href="https://www.instagram.com/riqcarneiro/"><img id="ico2" src="./assets/instagram.svg" alt="Insta" /> Instagram</a></p>
-                  <p><a class="dropdown-item" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/"><img id="ico2" src="./assets/linkedin.svg" alt="Linkedin" /> LinkedIn</a></p>
-                  <p><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets/whatsapp.svg" alt="Whats" />Whatsapp</a></p>
+                  <div id="sMLogo"><a class="dropdown-item" href="https://www.instagram.com/riqcarneiro/"><img id="ico2" src="./assets/instagram.svg" alt="Insta" /> Instagram</a></div>
+                  <div id="sMLogo"><a class="dropdown-item" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/"><img id="ico2" src="./assets/linkedin.svg" alt="Linkedin" /> LinkedIn</a></div>
+                  <div id="sMLogo"><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets/twitter.svg" alt="Whats" />Twitter</a></div>
+                  <div id="sMLogo"><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets/facebook.svg" alt="Whats" />Twitter</a></div>
 
                   </div>
   </footer>
@@ -132,37 +133,17 @@
   </div>
 </div>
 
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Contato</h3>
-        <p><i class="fas fa-map-marker-alt"></i> Endereço: Rua Exemplo, 123 - São Paulo/SP</p>
-        <p><i class="fas fa-phone"></i> Telefone: (11) 1234-5678</p>
-        <p><i class="fas fa-envelope"></i> E-mail: contato@exemplo.com</p>
-      </div>
-      <div class="col-md-6">
-        <h3>Links Úteis</h3>
-        <ul class="list-unstyled">
-          <li><a href="#">Política de Privacidade</a></li>
-          <li><a href="#">Termos de Uso</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
-        <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook"></i>asd</a>
-          <a href="#"><i class="fab fa-twitter"></i>asd</a>
-          <a href="#"><i class="fab fa-instagram"></i>asd</a>
-          <a href="#"><i class="fab fa-linkedin"></i>asd</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer> 
+
 
 </template>
 
 <style scoped>
 
+#sMLogo{
+text-align: left;
+padding:5px
+
+}
 
 #floating {
   display: flex;
@@ -171,6 +152,12 @@
   position: fixed;
   bottom: 0;
   right: 0;
+}
+
+p2{
+  text-align: left;
+  padding:10px;
+
 }
 
 h1 {
@@ -184,20 +171,29 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  text-align: center;
-}
 
 h3 {
 
-  text-align: center;
+  text-align: left;
+  padding-bottom: 10px;
 
 }
+
+#linksSocial{
+  width:40vw;
+  height: 30vh;
+  margin-bottom: 5vw;}
+
+
 
 #recursos{
   width:40vw;
   height: 30vh;
-  margin-bottom: 5vw;}
+  margin-bottom: 5vw;
+  display:flex;
+  flex-direction: column;
+
+}
 
 #navbar {
   z-index: 9999;
