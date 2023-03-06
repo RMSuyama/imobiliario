@@ -38,6 +38,15 @@
   </div>
 </nav>
 
+<div id="floating">
+
+      <div><a class="dropdown-item" href="https://www.instagram.com/suyama.adv/"><img id="ico2" src="./assets/instagram.svg" alt="Insta" /> </a></div>
+      <div><a class="dropdown-item" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/"><img id="ico2" src="./assets/linkedin.svg" alt="Linkedin" /> </a></div>
+      <div><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets/whatsapp.svg" alt="Whats" /></a></div>
+
+</div>
+
+
   <div class="container text-center" id="body">
     <div class="row">
       <div class="col-12">
@@ -97,26 +106,16 @@
                   <h3>Endereço:</h3>
                    <p><a href="https://www.google.com/maps/@-24.4945346,-47.8467756,21z">Rua Celso Xavier, 590 – Centro – Registro/SP</a></p> 
                    <p><a href="http://www.google.com">rafaelmoreirasuyama@adv.oabsp.org.br</a></p>
-                   <p><a href="http://www.google.com">Telefone de contato</a></p>
+                   <p><a href="http://www.google.com">Telefone de contato: (13) 3822-1879</a></p>
                   </div>
                   <div id="recursos">
 
-                  <h3>Sobre a Empresa:</h3>
+                  <h3>Sobre o Escritório:</h3>
 
                   <p><a href="http://www.google.com">Nossa história</a></p> 
                   <p><a href="http://www.google.com">Nossa equipe</a></p>
-                  <p><a href="http://www.google.com">Depoimento de Clientes</a></p>
-
-                  </div>
-
-                  <div id="recursos">
-                  <h3>Recursos:</h3>
-
-                  <p><a href="http://www.google.com">Blog</a></p> 
+                  <p><a href="http://www.google.com">Política de Privacidade</a></p>
                   <p><a href="http://www.google.com">FAQs</a></p>
-                  <p><a href="http://www.google.com">Política de privacidade</a></p>
-                  <p><a href="http://www.google.com">Termos de uso</a></p>
-
                   </div>
 
                   <div id="recursos">
@@ -133,10 +132,46 @@
   </div>
 </div>
 
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Contato</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Endereço: Rua Exemplo, 123 - São Paulo/SP</p>
+        <p><i class="fas fa-phone"></i> Telefone: (11) 1234-5678</p>
+        <p><i class="fas fa-envelope"></i> E-mail: contato@exemplo.com</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Links Úteis</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i>asd</a>
+          <a href="#"><i class="fab fa-twitter"></i>asd</a>
+          <a href="#"><i class="fab fa-instagram"></i>asd</a>
+          <a href="#"><i class="fab fa-linkedin"></i>asd</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> 
+
 </template>
 
 <style scoped>
 
+
+#floating {
+  display: flex;
+  flex-direction: row;
+  padding:40px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
 
 h1 {
   font-size:xx-large;
@@ -144,8 +179,7 @@ h1 {
   }
 
 h2 {
-  padding-top: 2vw;
-  padding-bottom: 3vw;
+   padding-bottom: 3vw;
   font-size:large;
   text-align: center;
 }
@@ -172,22 +206,17 @@ h3 {
 #foot {
   display: flex;
   padding-top: 7vw;
+  justify-content: center;
+  flex-wrap: nowrap;
 
 }
 
 #sobremim {
-  padding-top: 10vh; /* ajuste o valor conforme necessário */
   padding-left: -30vw;
 }
 
 #logo{
-  padding-left: 1.3vw;
-  padding-bottom: 5px;
-  width:12vw;
-  height:10.5vw;
-  display:flex;
-  align-items: center;
-  justify-content: center;
+  width:5vw;
 }
 
 #logo2{
