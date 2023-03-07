@@ -21,8 +21,8 @@
           <a class="nav-link" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/">Serviços</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://wa.me/5513996267989">Artigos</a>
-        </li>
+          <a class="nav-link" href="./blog.html">Artigos</a>
+        </li> 
       </ul>
       <div class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,7 +58,7 @@
 
 <div class="embed-responsive embed-responsive-16by9" id="videozinho">
 <video width="800px" poster="./assets/logo.png" autoplay loop muted >
-  <source src="./assets/video.mp4" type="video/mp4">
+  <source src="./assets/yt5s.io-Anuncio de imóvel com drone FPV.(720p).mp4" type="video/mp4">
   Seu navegador não suporta a reprodução de vídeo.
 </video>
 </div>
@@ -175,6 +175,11 @@
 </template>
 
 <style scoped>
+
+#body{
+  position: relative;
+  z-index: 1;
+}
 #whats{
   height: 75px;
 
@@ -203,14 +208,14 @@
   font-weight: 2500;
   color: #333;
   text-align: center;
+  padding-bottom: 80px;
 }
 
 #videozinho{
 text-align: center;
-opacity: 0.1; /* exemplo de valor, ajuste conforme desejar */
+opacity: 0.8; /* exemplo de valor, ajuste conforme desejar */
 position: relative;
-  z-index: -1;
-
+z-index: -1;
 
 }
 
