@@ -1,6 +1,9 @@
 
 <template>
-<div><nav class="navbar navbar-expand-lg" id="navbar">
+<div>
+<header>
+
+  <nav class="navbar navbar-expand-lg" id="navbar">
   <div class="container-fluid">
     <a class="navbar-brand" href=""><img id="logo" src="./assets/logo.png" alt="Example Image" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,23 +32,36 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="https://www.instagram.com/suyama.adv/"><img id="ico2" src="./assets/instagram.svg" alt="Insta" /> Instagram</a></li>
             <li><a class="dropdown-item" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/"><img id="ico2" src="./assets/linkedin.svg" alt="Linkedin" /> LinkedIn</a></li>
-            <li><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets/whatsapp.svg" alt="Whats" />Whatsapp</a></li>
-
-            
+            <li><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets//twitter.svg" alt="Whats" />Twitter</a></li>
+            <li><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets/facebook.svg" alt="Whats" />Facebook</a></li>
+         
           </ul>
         </div>
     </div>
   </div>
 </nav>
+</header>
+
 
 <div id="floating">
 
-      <div><a class="dropdown-item" href="https://www.instagram.com/suyama.adv/"><img id="ico2" src="./assets/instagram.svg" alt="Insta" /> </a></div>
-      <div><a class="dropdown-item" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/"><img id="ico2" src="./assets/linkedin.svg" alt="Linkedin" /> </a></div>
-      <div><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets/whatsapp.svg" alt="Whats" /></a></div>
+
+      <div><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="whats" src="./assets/whatsapp.svg" alt="Whats" /></a></div>
 
 </div>
 
+<div id="t1">Advocacia Imobiliária</div>
+
+<div id="t2"> Regularização Imobiliária e Consultoria Jurídica</div>
+
+
+
+<div class="embed-responsive embed-responsive-16by9" id="videozinho">
+<video width="800px" poster="./assets/logo.png" autoplay loop muted >
+  <source src="./assets/video.mp4" type="video/mp4">
+  Seu navegador não suporta a reprodução de vídeo.
+</video>
+</div>
 
   <div class="container text-center" id="body">
     <div class="row">
@@ -55,9 +71,6 @@
 
           <div class="card-body" id="left">
 
-          <h1>ADVOGADO IMOBILIÁRIO</h1>
-
-          <h2>Atendimento Personalizado, com Credibilidade, Agilidade e Transparência</h2>
 
           <p> Se você está precisando de um advogado imobiliário, você veio ao lugar certo! Com uma formação jurídica sólida e uma vasta experiência na área de regularização imobiliária, eu posso oferecer a você uma gama completa de serviços jurídicos de alta qualidade.</p>
 
@@ -96,8 +109,32 @@
         </div>
       </div>
     </div>
-    
-    <div class="row">
+
+    <container id="inscreva">
+  <h1>Receba Conteúdos Exclusivos</h1>
+  <h2>Receba novidades incríveis direto em seu e-mail.</h2>
+  <div class="form-floating mb-3">
+    <input type="nome" class="form-control" id="floatingInput" placeholder="name name">
+    <label for="floatingInput">Nome</label>
+  </div>
+  <div class="form-floating">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingPassword">E-mail</label>
+  </div> 
+    <input class="form-check-input" type="checkbox" value="" id="checkNovidades">
+    <label class="form-check-label" for="checkNovidades">
+      Aceito receber e-mails com novidades!
+    </label>
+  <div id="concordo"> Ao informar meus dados, eu concordo com a Política de Privacidade e com os Termos de Uso.</div>
+  <div class="form-check">
+
+    <button type="button" class="btn btn-dark">Quero me inscrever!</button>
+
+
+  </div>
+</container>
+
+    <container class="row">
       <div class="col-12">
         <footer class="navbar navbar-expand-lg .bg-body-secondary" id="foot">
 
@@ -124,12 +161,12 @@
                   <div id="sMLogo"><a class="dropdown-item" href="https://www.instagram.com/riqcarneiro/"><img id="ico2" src="./assets/instagram.svg" alt="Insta" /> Instagram</a></div>
                   <div id="sMLogo"><a class="dropdown-item" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/"><img id="ico2" src="./assets/linkedin.svg" alt="Linkedin" /> LinkedIn</a></div>
                   <div id="sMLogo"><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets/twitter.svg" alt="Whats" />Twitter</a></div>
-                  <div id="sMLogo"><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets/facebook.svg" alt="Whats" />Twitter</a></div>
+                  <div id="sMLogo"><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="ico2" src="./assets/facebook.svg" alt="Whats" />Facebook</a></div>
 
                   </div>
   </footer>
       </div>
-    </div>
+    </container>
   </div>
 </div>
 
@@ -138,6 +175,44 @@
 </template>
 
 <style scoped>
+#whats{
+  height: 75px;
+
+}
+
+#inscreva{
+  padding:20px;
+}
+
+#t1{
+  position: relative;
+  z-index: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#t2{
+  position: relative;
+  z-index: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 2500;
+  color: #333;
+  text-align: center;
+}
+
+#videozinho{
+text-align: center;
+opacity: 0.1; /* exemplo de valor, ajuste conforme desejar */
+position: relative;
+  z-index: -1;
+
+
+}
 
 #sMLogo{
 text-align: left;
@@ -160,9 +235,12 @@ p2{
 
 }
 
+
+
 h1 {
   font-size:xx-large;
   text-align: center;
+  padding-top: 3vw;
   }
 
 h2 {
@@ -175,7 +253,7 @@ h2 {
 h3 {
 
   text-align: left;
-  padding-bottom: 10px;
+  padding: 10px;
 
 }
 
@@ -200,6 +278,8 @@ h3 {
 }
 
 #foot {
+
+  margin-left: 50px;
   display: flex;
   padding-top: 7vw;
   justify-content: center;
