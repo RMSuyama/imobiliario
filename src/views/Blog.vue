@@ -3,6 +3,6 @@
 
 <template>
   <main>
-    <TheWelcome />
+    blog
   </main>
 </template>
