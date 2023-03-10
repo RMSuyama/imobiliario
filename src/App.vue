@@ -3,7 +3,7 @@
 <div>
 <header>
 
-  <nav class="navbar navbar-expand-lg" id="navbar">
+  <nav id="navbar" class="navbar navbar-expand-lg" >
   <div class="container-fluid">
     <a class="navbar-brand" href=""><img id="logo" src="./assets/logo.png" alt="Example Image" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,12 +21,13 @@
           <a class="nav-link" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/">Serviços</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./src/views/Blog.vue">Artigos</a>
+          
+          <router-link to="/about" class="nav-link">Artigos</router-link>
         </li> 
       </ul>
       <div class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Entre em contato!
+            Me siga nas redes sociais!
           </a>
           
           <ul class="dropdown-menu">
@@ -43,7 +44,7 @@
 </header>
 
 
-<div id="floating">
+<div id="floatingWhatsApp">
 
 
       <div><a class="dropdown-item" href="https://wa.me/5513996267989"><img id="whats" src="./assets/whatsapp.svg" alt="Whats" /></a></div>
@@ -113,15 +114,21 @@
     <container id="inscreva">
   <h1>Receba Conteúdos Exclusivos</h1>
   <h2>Receba novidades incríveis direto em seu e-mail.</h2>
-  <div class="form-floating mb-3">
-    <input type="nome" class="form-control" id="floatingInput" placeholder="name name">
+  
+    </container>
+    <container>
+  <div class="form-floating mb-3" id="floatingInputContainer">
+    <input type="nome" class="form-control" style="width: 20rem;" id="floatingInput" placeholder="name name">
     <label for="floatingInput">Nome</label>
   </div>
-  <div class="form-floating">
-    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <div class="form-floating">
+    <input type="email" class="form-control" style="width: 20rem;" id="floatingInput" placeholder="name@example.com">
     <label for="floatingPassword">E-mail</label>
   </div> 
-    <input class="form-check-input" type="checkbox" value="" id="checkNovidades">
+    </container>
+   <container>
+
+      <input class="form-check-input" type="checkbox" value="" id="checkNovidades">
     <label class="form-check-label" for="checkNovidades">
       Aceito receber e-mails com novidades!
     </label>
@@ -225,7 +232,7 @@ padding:5px
 
 }
 
-#floating {
+#floatingWhatsApp {
   display: flex;
   flex-direction: row;
   padding:40px;
@@ -282,7 +289,6 @@ h3 {
 
 #foot {
 
-  margin-left: 50px;
   display: flex;
   padding-top: 7vw;
   justify-content: center;

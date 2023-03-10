@@ -2,6 +2,7 @@
 </script>
 
 <template>
+  <div>hello world</div>
   <main>
     blog
   </main>
