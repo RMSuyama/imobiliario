@@ -14,14 +14,14 @@
                             <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/suyama.adv/">História</a>
+                            <a class="nav-link" href="https://www.instagram.com/suyama.adv/">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/">Serviços</a>
+                            <a class="nav-link" href="https://www.linkedin.com/in/rafael-moreira-suyama-0043bb189/">Artigos, Notícias e Boletins</a>
                         </li>
                         <li class="nav-item">
                         
-                        <router-link to="/about" class="nav-link">Artigos</router-link>
+                        <router-link to="/about" class="nav-link">Contato</router-link>
 
                         </li> 
                     </ul>
@@ -54,5 +54,14 @@
 
   }
 
+  a{
+    font-size:x-large;
+  }
+
+  #ico2{
+
+    width:3rem;
+    padding-right: 1rem;
+  }
   </style>
   

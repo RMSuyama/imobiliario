@@ -7,15 +7,13 @@
                       <div class="card" style="width: 100%;">
                         <div class="card-body" id="foot">
     
-    
                                     <div id="recursos" style="width: 100%;">
     
-                                    <h5 class="card-title">Sobre o Escritório</h5>
     
-                                        <p2><a href="http://www.google.com">Nossa história</a></p2> 
-                                        <p2><a href="http://www.google.com">Nossa equipe</a></p2>
-                                        <p2><a href="http://www.google.com">Política de Privacidade</a></p2>
-                                        <p2><a href="http://www.google.com">FAQs</a></p2>
+                                        <p2><a href="http://www.google.com">Serviços</a></p2> 
+                                        <p2><a href="http://www.google.com">Artigos, Notícias e Boletins</a></p2>
+                                        <p2><a href="http://www.google.com">Entre em contato</a></p2>
+
                                     </div>
     
                         </div>
@@ -33,26 +31,36 @@
     
 
       #foot {
-        padding: 50px 0;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        -webkit-box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.75);
       }
 
       #recursos {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        flex-direction: row;
+        justify-content:space-around;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+
       }
 
       .card-title {
+
         margin-bottom: 30px;
-      }
+        margin-left: 10%;
+            }
 
       p2 {
         margin-bottom: 15px;
       }
+      a{
+        font-size: xx-large;
+        color: black;
 
+      }
     
     </style>
       

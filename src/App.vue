@@ -6,28 +6,23 @@
 </header>
 
 
-<div id="floatingWhatsApp">
 
-
-
-</div>
 <div>
-<div id="t">Regularização Imobiliária</div>
 
-<div id="t1">Rafael Moreira Suyama</div>
+<div id="t">Regularização Imobiliária</div>
 
 <div id="t1">Advocacia Imobiliária</div>
 
 <div id="t2">Regularização Imobiliária e Consultoria Jurídica</div>
 
-  <!-- 
-  <video id="videozinho" width="100%" poster="./assets/logo.png" autoplay loop muted >
+  
+  <!-- <video id="videozinho" width="100%" poster="./assets/logo.png" autoplay loop muted >
     <source src="./assets/teclado-de-computador-3188.mp4" type="video/mp4">
     Seu navegador não suporta a reprodução de vídeo.
   </video> -->
 
 
-<video id="background-video" autoplay loop muted>
+<video  id="background-video" autoplay loop muted>
   <source src="./assets/tarde-29980.mp4" type="video/mp4">
   
   Seu navegador não suporta a reprodução de vídeo.
@@ -41,18 +36,40 @@
  
 
     <!-- <carrosselComp></carrosselComp> -->
-
-    <endereçoComp></endereçoComp>
     <sobreComp></sobreComp>
+    <endereçoComp></endereçoComp>
+
     <redeSocialComp></redeSocialComp>
 
 </div>
 
 
 
+
+
 </template>
 
 <style scoped>
+
+@keyframes  myAnimation {
+        from {left: 0%;}
+        to {left: 10%;}
+    }
+    /* Hien thi cho Firefox */
+    @-moz-keyframes myAnimation {
+        from {left: 0%;}
+        to {left: 10%;}
+    }
+    /* Hien thi cho Safari and Chrome */
+    @-webkit-keyframes myAnimation {
+        from {left: 0%;}
+        to {left: 10%;}
+    }
+    /* Hien thi cho Opera */
+    @-o-keyframes myAnimation {
+        from {left: 0%;}
+        to {left: 10%;}
+    }
 
 
 #background-video {
@@ -74,44 +91,91 @@
 }
 
 #t{
-    padding-top: 20%;
+    background-color: black;
+    margin-top: 15%;
+    padding-left: 15%;
+    margin-right: 15%;
     color:aliceblue;
-    position: relative;
     z-index: 1;
     font-family: 'Roboto', sans-serif;
-    font-size: 6rem;
-    text-align: center;
+    font-size: 5rem;
+    text-align:center;
     /* text-transform: uppercase; */
+
+    animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+  -moz-animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+  -webkit-animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+  -o-animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+  animation-fill-mode: forwards;
   }
 
   #t1{
-    padding-top: 40%;
+
+    background-color: black;
+    margin-top: 40%;
+    
     color:aliceblue;
     position: relative;
     z-index: 1;
     font-family: 'Roboto', sans-serif;
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: center;
     /* text-transform: uppercase; */
+   
+
+  animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+  -moz-animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+  -webkit-animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+  -o-animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+  animation-fill-mode: forwards;
   }
 
+  
+@keyframes  myAnimation2 {
+        from {right: 0%;}
+        to {right: 10%;}
+    }
+    /* Hien thi cho Firefox */
+    @-moz-keyframes myAnimation2 {
+        from {right: 0%;}
+        to {right: 10%;}
+    }
+    /* Hien thi cho Safari and Chrome */
+    @-webkit-keyframes myAnimation2 {
+        from {right: 0%;}
+        to {right: 10%;}
+    }
+    /* Hien thi cho Opera */
+    @-o-keyframes myAnimation2 {
+        from {right: 0%;}
+        to {right: 10%;}
+    }
+
+    #h5{-webkit-box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.75);}
+
   #t2 {
+
+    background-color: black;
+ 
+    padding-bottom: 3%;
     position: relative;
     z-index: 1;
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 2500;
     color:aliceblue;
     text-align: center;
-    padding-bottom: 50%;
+
+    animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+    -moz-animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+   -webkit-animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+   -o-animation: myAnimation2 2s ease 0.5s 1 normal forwards;
+   animation-fill-mode: forwards;
+
   }
 
-  #videozinho {
-    text-align: center;
-    opacity: 0.2; /* exemplo de valor, ajuste conforme desejar */
-    position: relative;
-    z-index: -1;
-  }
 
 
 #floatingWhatsApp {
@@ -151,66 +215,8 @@ h3 {
   z-index: 9999;
 }
 
-#foot {
-
-  display: flex;
-  padding-top: 7vw;
-  justify-content: center;
-  flex-wrap: nowrap;
-
-}
-
-#sobremim {
-  padding-left: -30vw;
-}
-
-#logo{
-  width:5vw;
-}
-
-#logo2{
- 
-  padding-left: 1.3vw;
-  padding-bottom: 5px;
-  width:7vw;
-  height:5.5vw;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
 
 
-
-#left{
-  text-indent: 20px;
-  text-align: justify;
-  padding: 5px;
-  margin: 2vw;
-}
-
-#ico2{
-  width:2vw;
-  height:2vw;
-  margin-right: 1vw;
-}
-
-#carousel{
-  padding-top: 20%;
-  width:500px;
-  height:300px;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  display: flex;
-
-  }
-  #carouselDiv{
-
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  display: flex;
-  } 
 
 #navbar{
   background-color:white;

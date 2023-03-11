@@ -35,16 +35,24 @@
       <style scoped>
     
     #foot {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+      display: flex;
+  text-align: center;
+  flex-direction: column;
   align-items: center;
+  width: 100%;
   padding: 20px;
   background-color: #f5f5f5;
+  -webkit-box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.75);
 }
 
 #linksSocial {
   display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  align-content: center;
   flex-wrap: wrap;
   justify-content:center;
   align-items: center;
