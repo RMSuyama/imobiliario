@@ -13,7 +13,7 @@
 
 <div id="t1">Advocacia Imobiliária</div>
 
-<div id="t2">Regularização Imobiliária e Consultoria Jurídica</div>
+<div id="t2">Regularização e Consultoria Jurídica</div>
 
   
   <!-- <video id="videozinho" width="100%" poster="./assets/logo.png" autoplay loop muted >
