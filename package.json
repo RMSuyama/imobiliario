@@ -590,7 +590,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vue-cli-service build"
   },
   "repository": {
     "type": "git",
@@ -604,6 +605,7 @@
   "homepage": "https://github.com/RMSuyama/imobiliario#readme",
   "keywords": [],
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0"
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/cli": "^5.0.8"
   }
 }
