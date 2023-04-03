@@ -1,7 +1,22 @@
 
 const cont11 = () => {
     return (
-  
+        <container>
+
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+
+        <p>12x <span>R$58,80</span></p>
+        <p>Em caso de dúvidas chame no whatsapp<span>logo</span></p>
+
+        <div>
+        <h1>SEJA PRO</h1>
+        <li>Formação FullStack completa</li>
+
+        </div>
+
+
       <div>Para quem quer ser
       PROGRAMADOR
       de verdade
@@ -15,6 +30,9 @@ const cont11 = () => {
       Exercícios gamificados
       Certificado de autoridade
       MATRICULE-SE</div>
+
+        </container>
+
     );
   };
   
