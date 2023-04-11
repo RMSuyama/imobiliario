@@ -1,4 +1,5 @@
 import sorteionote from '../../Assets/Img/sorteio-note.webp';
+import React from 'react';
 
 const con7 = () => {
     return (

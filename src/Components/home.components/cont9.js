@@ -1,4 +1,5 @@
 import cafeteria from '../../Assets/Img/cafeteria.webp';
+import React from 'react';
 
 const cont9 = () => {
     return (

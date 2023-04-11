@@ -1,4 +1,5 @@
 import equipe2 from '../../Assets/Img/equipe2.webp';
+import React from 'react';
 
 
 const cont8 = () => {

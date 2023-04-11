@@ -1,3 +1,4 @@
+import React from 'react';
 import plataforma3 from '../../Assets/Vid/plataforma3.webm';
 
 const cont3 = () => {
