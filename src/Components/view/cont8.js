@@ -8,7 +8,7 @@ const cont8 = () => {
       <div>
         
         <container style={{display: "flex", flexDirection: "column", margin: '1vw',}}>
-            <div style={{display: "flex", flexDirection: "row", margin: '1vw',}}>
+            {/* <div style={{display: "flex", flexDirection: "row", margin: '1vw',}}>
                     <div id='left' style={{display: "flex", flexDirection: "column", margin: '1vw',}}>
                             <h1>Você vai ser um</h1>
                             <h1>programador FullStack</h1>
@@ -29,7 +29,7 @@ const cont8 = () => {
                     </div>          
             </div>
 
-            <button style={{backgroundColor:'rgb(255,255,255)'}}>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</button>
+            <button style={{backgroundColor:'rgb(255,255,255)'}}>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</button> */}
     </container>
       </div>
     );

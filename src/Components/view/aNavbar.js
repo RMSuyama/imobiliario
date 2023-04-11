@@ -1,4 +1,5 @@
 import React from 'react';
+import dashboardImg from '../../Assets/Img/306518788_476556120795119_4652107024227384434_n.jpg';
 
 
 const Teste = () => {
@@ -6,15 +7,16 @@ const Teste = () => {
     <nav>
 
         <navbar class="navbar"> 
+        
+        <section id="sect1" style={{display:'flex', flexDirection:'row', paddingTop:'1vw',paddingLeft:'2vw'}}>
+        <img class="imagem" src={dashboardImg} alt="Dashboard" style={{width: '10%', borderRadius:'3vw'}}/>
 
-        <section id="sect1" >
 
 
+            <p1 style={{paddingLeft:"1vw", paddingTop:'2vw'}}><b>GIAN</b> Bolfacaroline</p1>
 
-            <p1 style={{paddingLeft:"2vw"}}><b>DEV</b> MEDIA</p1>
-
-            <p style={{paddingLeft:"2vw"}}>Carreiras drop-list</p>
-            <p style={{paddingLeft:"2vw"}}>Casos de Sucesso</p>
+            <p style={{paddingLeft:"2vw", paddingTop:'2vw'}}>Sobre</p>
+            <p style={{paddingLeft:"2vw", paddingTop:'2vw'}}>Contato para freelas</p>
           
           </section>
 

@@ -3,7 +3,7 @@ import React from 'react';
 const cont10 = () => {
     return (
         <container style={{display: "flex", flexDirection: "column", margin: '1vw',}}>
-        <div style={{display: "flex", flexDirection: "column", margin: '1vw',}}>
+        {/* <div style={{display: "flex", flexDirection: "column", margin: '1vw',}}>
             <div>
                 <h1>Nossos casos de sucesso</h1> 
 
@@ -16,7 +16,7 @@ const cont10 = () => {
 
 
    
-        <button style={{backgroundColor:'rgb(84,102,111)'}}>Ver todos os casos de sucesso</button>
+        <button style={{backgroundColor:'rgb(84,102,111)'}}>Ver todos os casos de sucesso</button> */}
         </container>
 
     );

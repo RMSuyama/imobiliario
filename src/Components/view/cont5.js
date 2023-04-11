@@ -6,7 +6,7 @@ import React from 'react';
 const cont5 = () => {
     return (
   <container style={{display: "flex", flexDirection: "column", margin: '1vw',}}>
-            <h1>Escreva Códigos e ganhe recompensas</h1>
+            {/* <h1>Escreva Códigos e ganhe recompensas</h1>
             <p>+10.000 exercícios gamificados, valendo pontos, moedas, certificados e um lugar no ranking dos alunos!
 </p>
 
@@ -17,7 +17,7 @@ const cont5 = () => {
             
             <button style={{backgroundColor:'rgb(255,255,255)'}}>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</button>
 
-    
+     */}
         </container>
         
         );

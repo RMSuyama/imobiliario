@@ -1,5 +1,5 @@
 import React from 'react';
-import dashboardImg from '../../Assets/Img/dashboard-min.webp';
+import dashboardImg from '../../Assets/Img/23734938_152869982131901_4430415699634028544_n.jpg';
 import Button from '../common/buttons/button2';
 // import Input from '../common/input';
 import '../view/cont1.css'
@@ -11,22 +11,22 @@ const Cont1 = () => {
       <div className="cont1">
 
         <div id="bloco1">
-        <label class="label_metodo_titulo">Método</label>
+        <label class="label_metodo_titulo" style={{paddingTop:'1vw'}}>Giancarlo Bolfarini</label>
         <h1 class="titulo_box_principal titulo">
-            Aprenda a <br class="br_primeira_sessao" />
-            Programar de<br />
-            Verdade
+            El mejor <br class="br_primeira_sessao" />
+            batedero<br />
+            de Buenos Aires
         </h1>
 
-        <p class="titulo_box_principal subtitulo">Crie seu primeiro projeto em até <b>10 dias.</b></p>
-        <p class="titulo_box_principal subtitulo">Estude com <strong>menos aulas</strong> e <strong>mais prática.</strong></p>
+        <p class="titulo_box_principal subtitulo">Mestre das artes ocultas <b>dos baticumduns.</b></p>
+        <p class="titulo_box_principal subtitulo">Baterista de grandes bandas como a grande banda de reggae<strong> Mangata </strong> e pequenas bandinhas de garagem como <strong>Angra e Avenged Seventfold.</strong></p>
 
  
         </div>
 
         <div id="bloco3" className="inline-block" style={{display: "flex", flexDirection: "row", }}>
-        <Button>Criar conta grátis</Button>
-          <Button> Matricule-se</Button>
+        <Button>Quero contratar ele</Button>
+        <Button>Quero comprar pacote do onlyfans dele</Button>
 
 
         </div>

@@ -6,7 +6,7 @@ const cont11 = () => {
     return (
         <container>
 
-
+{/* 
         <h1>Para quem quer ser</h1>
         <h1>PROGRAMADOR</h1>
         <h1>de verdade</h1>
@@ -22,7 +22,7 @@ const cont11 = () => {
             <li>Exercícios gamificados</li>
             <li>Certificado de autoridade</li>
             <button>MATRICULE-SE</button>
-        </div>
+        </div> */}
 
 
         </container>

@@ -5,7 +5,7 @@ const cont12 = () => {
     return (
   
       <><div>
-            <div>
+            {/* <div>
                 <h1>Menu</h1>
                 <div>
                       <p>Tecnologias</p>
@@ -29,7 +29,7 @@ const cont12 = () => {
            <div>
             Logos
 
-           </div>
+           </div> */}
             </div>
 
 

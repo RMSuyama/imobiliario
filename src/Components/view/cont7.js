@@ -6,7 +6,7 @@ const con7 = () => {
     return (
 
         <container style={{display: "flex", flexDirection: "column", margin: '1vw',}}>
-            <div id='imagens' style={{display: "flex", flexDirection: "row", margin: '1vw',}}>
+            {/* <div id='imagens' style={{display: "flex", flexDirection: "row", margin: '1vw',}}>
                 <img src={sorteionote} alt="Dashboard" style={{width: '50%'}} />
             <div style={{display: "flex", flexDirection: "column", margin: '1vw',}}>
                 <h1>Sorteio da Temporada</h1>
@@ -14,7 +14,7 @@ const con7 = () => {
 
             </div>
             </div>          
-            <button style={{backgroundColor:'rgb(255,255,255)'}}>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</button>
+            <button style={{backgroundColor:'rgb(255,255,255)'}}>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</button> */}
     </container>
 
     );

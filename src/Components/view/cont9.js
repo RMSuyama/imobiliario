@@ -7,7 +7,7 @@ const cont9 = () => {
 
         
         <container style={{display: "flex", flexDirection: "column", margin: '1vw',}}>
-                <div style={{display: "flex", flexDirection: "row", margin: '1vw',}}>
+                {/* <div style={{display: "flex", flexDirection: "row", margin: '1vw',}}>
                     <div>
                         <h1>Converse com</h1> 
                         <h1>outros</h1> 
@@ -22,7 +22,7 @@ const cont9 = () => {
 
 
    
-        <button style={{backgroundColor:'rgb(84,102,111)'}}>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</button>
+        <button style={{backgroundColor:'rgb(84,102,111)'}}>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</button> */}
         </container>
         
         
