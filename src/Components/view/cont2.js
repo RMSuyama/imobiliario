@@ -1,6 +1,7 @@
-import React from 'react';
 
 import metodologia from '../../Assets/Img/metodologia.webp';
+import React from 'react';
+import Button from '../common/buttons/button2';
 
 
 const cont2 = () => {
@@ -16,7 +17,7 @@ const cont2 = () => {
 
 
 
-        <button style={{backgroundColor:'rgb(84,102,111)'}}>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</button>
+    <Button>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</Button>
   
 
 

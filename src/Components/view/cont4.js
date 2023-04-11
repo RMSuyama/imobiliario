@@ -1,4 +1,7 @@
 import React from 'react';
+import Button from '../common/button';
+
+
 
 const cont4 = () => {
     return (
@@ -19,7 +22,7 @@ const cont4 = () => {
 
   
        
-            <button style={{backgroundColor:'rgb(84,102,111)'}}>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</button>
+            <Button>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</Button>
       
     
     

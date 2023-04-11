@@ -1,12 +1,19 @@
 
 /* ----------nav-------------------------- */
 
-
-svg {
-  width: 15px;
-  color:rgb(123,172,59);
+#_Path_{
+  color:green;
 }
 
+svg {
+  width: 35px;
+  height: 25px;
+
+}
+
+#_Group_{
+  width: 40px;
+}
 
 .navbar{
   display: flex;

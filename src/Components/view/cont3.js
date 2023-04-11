@@ -1,5 +1,8 @@
-import React from 'react';
 import plataforma3 from '../../Assets/Vid/plataforma3.webm';
+import React from 'react';
+import Button from '../common/button';
+
+
 
 const cont3 = () => {
     return (
@@ -14,7 +17,7 @@ const cont3 = () => {
     <video src={plataforma3} controls style={{width: '50%'}} />
 
 
-        <button style={{backgroundColor:'rgb(255,255,255)'}}>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</button>
+      <Button>firula MÉTODO APRENDA A PROGRAMAR DE VERDADE</Button>
   
 
 

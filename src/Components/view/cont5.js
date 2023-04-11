@@ -2,6 +2,7 @@ import exercicios from '../../Assets/Img/exercicios.webp';
 import exercicio from '../../Assets/Img/exercicio.webp';
 import React from 'react';
 
+
 const cont5 = () => {
     return (
   <container style={{display: "flex", flexDirection: "column", margin: '1vw',}}>
