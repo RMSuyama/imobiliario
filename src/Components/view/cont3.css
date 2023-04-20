@@ -1,0 +1,21 @@
+h4{
+
+    font-family: 'Spectral', serif;
+    font-size: 1vw;
+}
+
+#texto{
+
+text-indent: 2vw;
+width: fit-content;
+border-radius: 10px;
+color: #000000;
+letter-spacing: 2px;
+display: block;
+margin-bottom: 5px;
+padding-left: 5px;
+font-size: 24px;
+margin-top: 25px;
+font-family: 'Spectral', serif;
+
+}

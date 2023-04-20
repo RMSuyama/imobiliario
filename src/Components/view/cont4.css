@@ -1,0 +1,26 @@
+footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Alteração para usar flexbox */
+    justify-content: center; /* Centralizar os itens na horizontal */
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #c0c0c0;
+  }
+  

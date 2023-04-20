@@ -1,32 +1,38 @@
-
-import metodologia from '../../Assets/Img/10860111_883390038346866_1115125647_n.jpg';
 import React from 'react';
+import metodologiaVideo from '../../Assets/Vid/teclado-de-computador-3188.mp4'; // Importe o vídeo MP4
 import Button from '../common/buttons/button2';
-
+import './cont2.css';
 
 const cont2 = () => {
-    return (
-  
-        <container style={{display: "flex", flexDirection: "column", margin: '2vw', alignItems:'center', }}>
+  return (
+    <div className="container">
+      <h1 class="titulo_box_principaltitulo">
+            Serviços
+          </h1>
 
-    <h1 style={{ fontSize:'45px', padding: '3vw 3vw 0 3vw'}}>Apaixonado desde criança por música.</h1>
-    <h2 style={{ fontSize:'20px', paddingLeft: '3vw', padding:'0 3vw 3vw 3vw'}}>
-    Verdadeiro amante do mais puro suco da boa e velha música, ou musiquee em francês, ou music em inglês, chanson em italiano...
-    </h2> 
+      <video src={metodologiaVideo} alt="Metodologia" className="video" autoPlay muted loop style={{ width: '60%', height: 'auto', borderRadius:'2vw', marginTop:'1vw' }}/>
 
-    <img src={metodologia} alt="Dashboard" style={{width: '35%', }} />
+      <div id='agrupamento'>
 
+        <div style={{display:'flex', flexDirection:'column'}}>
+          <div style={{display:'flex', flexDirection:'column'}}>
+            <ul className="list-group" style={{flex: 1}}>
+              <li className="list-group-item">Regularização imobiliária, Usucapião e Contratos</li>
+              <li className="list-group-item">Divórcios, Partilhas e inventários</li>
+              <li className="list-group-item">Adequação à LGPD</li>
+              <li className="list-group-item">Defesa em ações Trabalhista</li>
+            </ul>
+          </div>
+        </div>
 
+      </div>
+      <div className="inline-block">
 
-    <Button>Freelancer de qualidade</Button>
-  
+                <Button>Quero mais informações sobre os serviços</Button>
 
+      </div>
+    </div>
+  );
+};
 
-    </container>
-
-      
-
-    );
-  };
-  
-  export default cont2;
+export default cont2;

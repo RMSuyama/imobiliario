@@ -10,7 +10,7 @@ const Button3 = ({children}) => {
 
 return (
     <button
-      style={{ backgroundColor: isHovered ? 'rgb(189,202,205)' : 'white', color: isHovered ? 'rgb(37,58,68)' : 'rgb(37,58,68)', marginTop:'40px' , width:'18vw', height:'fit-content', marginRight:'20px', fontSize:'18px', padding: '15px', borderRadius:'6px', display: 'inline-block', fontweight: '600',  }}
+      style={{ backgroundColor: isHovered ? 'rgb(189,202,205)' : 'white', color: isHovered ? 'rgb(37,58,68)' : 'rgb(37,58,68)', marginTop:'40px' , width:'18vw', height:'fit-content', marginRight:'20px', fontSize:'18px', padding: '15px', borderRadius:'6px', marginBottom:'2vw', display: 'inline-block', fontweight: '600',  }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

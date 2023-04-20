@@ -5,24 +5,37 @@
   text-align: center;
 }
 .imagem{
-  width: 55vw;
+  width: 35vw;
   margin-right: 2vw;
 }
+
 #bloco1{
   display: flex;
   flex-direction: column;
   margin-left: 3vw;
+  margin-right: 5vw;
+  font-family: 'Spectral', serif;
+
 }
 
 #bloco2{
   display: flex;
   flex-direction: row;
   
+  
+}
+
+.h1{
+  padding:0px;
+  font-family: 'Spectral', serif;
+
 }
 
 .inline-block {
   display: inline-block;
   margin: 0 10px; /* ajuste o espaçamento conforme necessário */
+  font-family: 'Spectral', serif;
+
 }
 
 .label_metodo_titulo {
@@ -37,6 +50,7 @@
   display: block;
   margin-bottom: 5px;
   padding-left: 5px;
+  font-family: 'Spectral', serif;
 
 }
 
